@@ -1,0 +1,15 @@
+[package]
+name = "optimistic-cell"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tyler Neely <tylerneely@gmail.com>"]
+description = "a simple lock-like structure for low-overhead optimistic concurrency"
+license = "GPL-3.0"
+repository = "https://github.com/komora-io/optimistic-cell"
+keywords = ["multi-threaded", "performance", "occ", "optimistic"]
+categories = ["concurrency", "data-structures", "rust-patterns"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
